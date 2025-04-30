@@ -1,0 +1,14 @@
+transformers          # génération de texte (GPT-2 via Hugging Face)
+torch                 # backend pour transformers et diffusers
+diffusers             # génération d’images avec Stable Diffusion
+accelerate            # exécution efficace sur GPU ou CPU
+scipy                 # nécessaire pour les modèles de diffusion
+Pillow                # manipulation d’images
+gTTS                  # conversion texte → audio (Google Text-to-Speech)
+ffmpeg-python         # interface Python pour FFmpeg (manipulation média)
+moviepy               # montage vidéo (fusion image + audio)
+python-dotenv         # chargement de variables d’environnement depuis un .env
+gradio                # interface web
+requests              # utilisé par diffusers et gtts (si non déjà installé)
+numpy                 # requis par moviepy et scipy
+click>=8.0
