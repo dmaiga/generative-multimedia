@@ -9,6 +9,5 @@ ffmpeg-python         # interface Python pour FFmpeg (manipulation média)
 moviepy               # montage vidéo (fusion image + audio)
 python-dotenv         # chargement de variables d’environnement depuis un .env
 gradio                # interface web
-requests              # utilisé par diffusers et gtts (si non déjà installé)
+requests              # utilisé par diffusers et gtts 
 numpy                 # requis par moviepy et scipy
-click>=8.0
